@@ -1,0 +1,139 @@
+/* Resetting margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family:unset;
+  }
+  
+  /* Header Styling */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #1e1e1e;
+  }
+  
+  .logo a {
+    color: #ffffff;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+  .name {
+    color: #00ffcc;
+  }
+
+  .nav-links a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s ease;
+    padding: 0px;
+  }
+  
+  .nav-links a:hover {
+    color: #ffffff;
+    background-color: #1e1e1e;
+    border-radius: 0px ;
+    box-shadow: 0 0 15px #ffffff;
+    border-style:none;
+  }
+  
+  /* Main Content Section */
+  .main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    min-height: 80vh;
+  }
+  
+  /* Text Content Styling */
+  .text-content {
+    max-width: 50%;
+  }
+  
+  .text-content h1 {
+    font-size: 2em;
+  }
+  
+  .text-content h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .text-content h3 {
+    color: #ffffff;
+    margin-top: 0px
+  }
+  .highlight {
+    color: #00ffcc;
+    font-size: 1.5em;
+  }
+  
+  .text-content p {
+    margin-top: 20px;
+    font-size: 1em;
+    line-height: 1.5;
+    max-width: 400px;
+  }
+  
+  /* Button Styling */
+  .download-cv {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #00ffcc;
+    color: #1e1e1e;
+    font-size: 1em;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-cv:hover {
+    background-color: #009977;
+    box-shadow: 0 0 35px #00ffcc;
+    border-style: outset;
+  }
+  
+  /* Image Content Styling */
+  .image-content {
+    margin-left: 250px;
+  }
+  
+  .profile-pic {
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    border: 5px solid #00ffcc;
+    box-shadow: 0 0 35px  #00ffcc;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .main-content {
+      flex-direction: column;
+      text-align: center;
+    }
+    .text-content, .image-content {
+      max-width: 100%;
+    }
+    .image-content {
+      margin-top: 20px;
+    }
+    .download-cv {
+      font-family: cursive 10px;
+    }
+  }
