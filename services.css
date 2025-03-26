@@ -1,0 +1,93 @@
+/* Background styling */
+body {
+    background: linear-gradient(135deg, #2e2e2e, #121212);
+    color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+/* Navbar styling */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #00ffcc;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.navbar a:hover {
+    color: #ffdd00;
+}
+
+/* Header styling */
+h1, h2, .section-title {
+    color: #00ffcc;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Section styling */
+.services-section {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+/* Service titles styling */
+.services-section h3 {
+    color: #00ffcc;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+/* Service description styling */
+.services-section p {
+    color: #cccccc;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* Adding hover effects to the service titles */
+.services-section h3:hover {
+    color: #ffdd00;
+    cursor: pointer;
+}
+
+
+.footer {
+    text-align: center;
+    color: #999;
+    font-size: 0.9em;
+    padding: 20px;  
+}
+
+/* Additional styling for a luxurious feel */
+button, a.button {
+    background: #00ffcc;
+    color: #121215;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-top: 15px;
+}
+
+button:hover, a.button:hover {
+    background: #ffdd00;
+    color: #121212;
+}
